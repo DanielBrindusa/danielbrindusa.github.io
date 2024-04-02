@@ -1,23 +1,8 @@
-#title1{
-    font-weight: bold;
-    color: blue;
+
+#mainHeader{
+    font-family: "Geogia";
 }
-#multicolortext{
-    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
+#homeBodyText{
+    font-family: "Arial";
     font-size: 16px;
-}
-#aboutButton{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #04aa6d;
-    color: black;
-}
-#aboutButton:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #0f875b;
-    color: black;
-    transition-duration: 0.4s;
 }
