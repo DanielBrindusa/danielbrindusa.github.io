@@ -3,19 +3,19 @@
     color: white; /* Set the text color to white */
     font-size: 1rem; /* Set the font size to 16 pixels */
     float: left; /* Float the text container to the left */
-    width: calc(70% - 5%); /* Calculate the width of the text container as 70% of its parent width minus 5% for margin */
+    width: calc(70% - 1%); /* Calculate the width of the text container as 70% of its parent width minus 5% for margin */
 }
 
 #homeBodyContent {
-    max-width: 800px; /* Set the maximum width of the content to 800 pixels */
+    max-width: 50rem; /* Set the maximum width of the content to 800 pixels */
     margin: 0 auto; /* Center the content horizontally */
-    padding: 20px; /* Add 20 pixels of padding around the content */
+    padding: 0.5rem; /* Add 20 pixels of padding around the content */
     overflow: hidden; /* Clear any floated elements within the container */
 }
 
 #imageContainer {
     float: right; /* Float the image container to the right */
-    margin-left: 20px; /* Add 20 pixels of margin to the left side of the image container */
+    /*margin-left: 0.5rem; /* Add 20 pixels of margin to the left side of the image container */
     max-width: 30%; /* Set the maximum width of the image container to 30% of its parent width */
 }
 
