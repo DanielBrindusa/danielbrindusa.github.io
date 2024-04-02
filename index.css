@@ -1,6 +1,12 @@
 
 #mainHeader{
     font-family: "Geogia";
+    position: fixed;
+    top: 0;
+    width: 500px;
+    margin-top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    padding: 10px;
 }
 #homeBodyText{
     font-family: "Arial";
