@@ -2,12 +2,6 @@
     font-family: "Geogia";
     text-align: center;
     color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-top: 0;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-    padding: 10px;
 }
 #homeBodyText{
     font-family: "Arial";
@@ -23,4 +17,18 @@
     background-size: cover;
     background-position: center;
     font-family: "Georgia";
+}
+#banner{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+#bannerContents{
+    width: 800px;
+}
+#mainContent{
+    padding-top: 70px;
 }

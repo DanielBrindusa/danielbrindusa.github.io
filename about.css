@@ -23,3 +23,17 @@
     background-position: center;
     font-family: "Georgia";
 }
+#banner{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+#bannerContents{
+    width: 800px;
+}
+#mainContent{
+    padding-top: 70px;
+}
