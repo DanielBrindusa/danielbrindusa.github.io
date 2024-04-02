@@ -1,7 +1,7 @@
 #homeBodyText {
     font-family: "Arial"; /* Set the font family to Arial */
     color: white; /* Set the text color to white */
-    font-size: 16px; /* Set the font size to 16 pixels */
+    font-size: 1rem; /* Set the font size to 16 pixels */
     float: left; /* Float the text container to the left */
     width: calc(70% - 5%); /* Calculate the width of the text container as 70% of its parent width minus 5% for margin */
 }
@@ -28,7 +28,7 @@
     clear: both; /* Clear the float created by the image container */
     font-family: "Arial"; /* Set the font family to Arial */
     color: white; /* Set the text color to white */
-    font-size: 16px; /* Set the font size to 16 pixels */
+    font-size: 1rem; /* Set the font size to 16 pixels */
 }
 
 /* CSS file defining styles for a webpage layout with text and an image. */
