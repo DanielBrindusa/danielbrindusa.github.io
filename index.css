@@ -9,9 +9,16 @@
     padding: 10px;
 }
 #homeBodyText{
-    background-image: url("abstractBackground.jpg");
-    background-color: #2b2b2b;
     font-family: "Arial";
+    color: white;
     font-size: 16px;
     margin-top: 50px;
+}
+#backImage{
+    padding-top: 50px;
+    margin: 0;
+    background-image: url("abstractBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Georgia";
 }
