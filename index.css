@@ -9,6 +9,9 @@
     padding: 10px;
 }
 #homeBodyText{
+    background-image: url("abstractBackground.jpg");
+    background-color: #2b2b2b;
     font-family: "Arial";
     font-size: 16px;
+    margin-top: 50px;
 }
