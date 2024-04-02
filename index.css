@@ -2,6 +2,7 @@
     font-family: "Geogia";
     text-align: center;
     color: white;
+    width: 800px;
 }
 #homeBodyText{
     font-family: "Arial";
@@ -25,9 +26,6 @@
 
     margin: 0 auto;
     text-align: center;
-}
-#bannerContents{
-    width: 800px;
 }
 #mainContent{
     padding-top: 70px;

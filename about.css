@@ -2,12 +2,7 @@
     font-family: "Geogia";
     text-align: center;
     color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-top: 0;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-    padding: 10px;
+    width: 800px;
 }
 #aboutText{
     font-family: "Arial";
@@ -30,9 +25,6 @@
 
     margin: 0 auto;
     text-align: center;
-}
-#bannerContents{
-    width: 800px;
 }
 #mainContent{
     padding-top: 70px;
