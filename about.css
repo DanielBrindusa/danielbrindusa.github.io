@@ -1,7 +1,25 @@
 #mainHeader{
     font-family: "Geogia";
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    padding: 10px;
 }
 #aboutText{
     font-family: "Arial";
     font-size: 16px;
+    margin-top: 50px;
+}
+#backImage{
+    padding-top: 50px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("abstractBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Georgia";
 }
