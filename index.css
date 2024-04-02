@@ -17,6 +17,7 @@
 #backImage{
     padding-top: 50px;
     margin: 0;
+    background-color: rgba(0, 0, 0, 0);
     background-image: url("abstractBackground.jpg");
     background-size: cover;
     background-position: center;
