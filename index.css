@@ -1,33 +1,34 @@
-#mainHeader{
-    font-family: "Geogia";
-    text-align: center;
-    font-size: 16px;
-    color: white;
+#homeBodyText {
+    font-family: "Arial"; /* Set the font family to Arial */
+    color: white; /* Set the text color to white */
+    font-size: 16px; /* Set the font size to 16 pixels */
+    float: left; /* Float the text container to the left */
+    width: calc(70% - 5%); /* Calculate the width of the text container as 70% of its parent width minus 5% for margin */
 }
-#homeBodyText{
-    font-family: "Arial";
-    color: white;
-    font-size: 16px;
-    margin-top: 50px;
-    padding: 10%;
-}
-#backImage{
-    padding-top: 50px;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url("abstractBackground.jpg");
-    background-size: cover;
-    background-position: center;
-    font-family: "Georgia";
-}
-#banner{
-    position: absolute;
-    top: 0px;
-    left: 0px;
 
-    margin: 0 auto;
-    text-align: center;
+#homeBodyContent {
+    max-width: 800px; /* Set the maximum width of the content to 800 pixels */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add 20 pixels of padding around the content */
+    overflow: hidden; /* Clear any floated elements within the container */
 }
-#mainContent{
-    padding-top: 70px;
+
+#imageContainer {
+    float: right; /* Float the image container to the right */
+    margin-left: 20px; /* Add 20 pixels of margin to the left side of the image container */
+    max-width: 30%; /* Set the maximum width of the image container to 30% of its parent width */
 }
+
+#imageContainer img {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Ensure the image behaves as a block element */
+}
+#homeBodyTextFullWidth {
+    clear: both; /* Clear the float created by the image container */
+    font-family: "Arial"; /* Set the font family to Arial */
+    color: white; /* Set the text color to white */
+    font-size: 16px; /* Set the font size to 16 pixels */
+}
+
+/* CSS file defining styles for a webpage layout with text and an image. */

@@ -1,32 +1,29 @@
-#mainHeader{
-    font-family: "Geogia";
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
 #aboutText{
-    font-family: "Arial";
-    color: white;
-    font-size: 16px;
-    margin-top: 50px;
+    font-family: "Arial"; /* Set the font family for the text */
+    color: white; /* Set the text color to white */
+    font-size: 16px; /* Set the font size to 16 pixels */
+    padding-top: 3%; /* Add padding to the top of the text container */
+    padding-left: 8%; /* Add padding to the left of the text container */
+    padding-right: 8%; /* Add padding to the right of the text container */
 }
-#backImage{
-    padding-top: 50px;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url("abstractBackground.jpg");
-    background-size: cover;
-    background-position: center;
-    font-family: "Georgia";
-}
-#banner{
-    position: absolute;
-    top: 0px;
-    left: 0px;
 
-    margin: 0 auto;
-    text-align: center;
+#backImage{
+    padding-top: 50px; /* Add padding to the top of the background image */
+    margin: 0; /* Reset the margin to zero */
+    background-color: rgba(0, 0, 0, 0); /* Set the background color to transparent */
+    background-image: url("abstractBackground.jpg"); /* Set the background image */
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+    font-family: "Georgia"; /* Set the font family for the text */
 }
-#mainContent{
-    padding-top: 70px;
+
+#banner{
+    display: flex; /* Use flexbox layout for the banner */
+    padding-left: 1%; /* Add padding to the left of the banner */
+    align-items: center; /* Vertically center the items within the banner */
 }
+
+/* This CSS file defines styles for an about section text, a background image, and a banner. 
+The about text has a specified font family, color, font size, and padding. 
+The background image is set to cover the entire container, centered, and has a transparent background color. 
+The banner uses flexbox layout, with padding and vertical alignment for its items. */

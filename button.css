@@ -1,16 +1,62 @@
-#aboutButton{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #04aa6d;
-    color: black;
-    height: 100px;
-    width: 150px;
-    padding: 15px 40px;
-    transition-duration: 0.4s;
-}
-#aboutButton:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #0f875b;
-    color: black;
-    height: 150px;
-    width: 200px;
-}
+#button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Apply box shadow to create a shadow effect */
+  background-color: #04aa6d; /* Set background color */
+  border: none; /* Remove border */
+  color: black; /* Set text color */
+  height: 50px; /* Set height */
+  width: 50px; /* Set width */
+  transition-duration: 0.4s; /* Set transition duration for smooth effect */
+  text-align: center; /* Center align text */
+  font-weight: bold; /* Set font weight */
+  font-size: 14px; /* Set font size */
+  font-family: Arial; /* Set font family */
+  border-radius: 12px; /* Set border radius */
+} /* End of #button styles */
+
+#button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /* Apply box shadow on hover */
+  background-color: #0f875b; /* Change background color on hover */
+  color: black; /* Set text color on hover */
+  display: block; /* Display the button on hover */
+} /* End of #button:hover styles */
+
+#dropdown {
+  position: relative; /* Set the position relative to its normal position */
+  display: inline-block; /* Display as an inline block */
+} /* End of #dropdown styles */
+
+#dropdown-content {
+  display: none; /* Initially hide the dropdown content */
+  position: absolute; /* Set the position to absolute */
+  background-color: #f9f9f9; /* Set background color */
+  min-width: 100px; /* Set minimum width */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Apply box shadow */
+  z-index: 1; /* Set z-index */
+  border-radius: 13px; /* Set border radius */
+  text-align: center; /* Center align text */
+  overflow: hidden; /* Hide overflow */
+  top: 51px; /* Set distance from the top */
+} /* End of #dropdown-content styles */
+
+#dropdown-content a {
+  background-color: #04aa6d; /* Set background color for dropdown items */
+  color: black; /* Set text color */
+  padding: 12px 12px; /* Set padding */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Display as block */
+  border-radius: 12px; /* Set border radius */
+} /* End of #dropdown-content a styles */
+
+#dropdown-content a:hover {
+  background-color: #0f875b; /* Change background color on hover */
+} /* End of #dropdown-content a:hover styles */
+
+#dropdown:hover #dropdown-content {
+  display: block; /* Display the dropdown content on hover */
+} /* End of #dropdown:hover #dropdown-content styles */
+
+#dropdown:hover #button {
+  background-color: #0f875b; /* Change background color of button on hover */
+  color: black; /* Set text color of button on hover */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /* Apply box shadow on hover */
+} /* End of #dropdown:hover #button styles */
